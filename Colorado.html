@@ -4,11 +4,49 @@
 <head>
   <title>Colorado Travel Journal</title>
   <meta charset="utf-8">
+  <style>
+  body{
+    margin:0;
+  }
+  h1{
+    text-align: center;
+    padding:30px;
+    border-bottom:gray 1px solid;
+    margin:0;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 180px 1fr;
+  }
+  #content{
+    border-left:gray 1px solid;
+    padding-left: 25px;
+    padding-right:25px;
+  }
+  #grid ol{
+
+    padding-top:20px;
+    margin:0;
+  }
+  </style>
 </head>
 
 <body>
   <h1><a href="index.html">Yoon's Travel Journal</a></h1>
 
+  <div id="grid">
+    <ol>
+      <li><a href ="na.html" >North America</a></li>
+      <li><a href ="sa.html">South America</a></li>
+      <li><a href ="eu.html">Europe</a></li>
+      <li><a href ="asia.html">Asia</a></li>
+    </ol>
+
+    <div id="content">
   <h3> Yoon's Colorado Adventure</h3>
 
   <p>Colorad has it's own vibe. It almost feels like a town in Europe. Surronded by the beautiful natures, Colorado is one of the nation's go-to place for skiing and winter sports.</p>
@@ -16,8 +54,10 @@
   <p> For nature lovers, it will be a great place to hike and explore national parks.</p>
   <img src="maroon.jpg" width="80%"><br>
   <img src="gog.jpg" width="80%"><br><br><br>
-  <a href="index.html">Back to Home</a><br>
+<a href="US.html">Back to US Adventure</a>
 
-  <a href="US.html">Back to US Adventure</a>
+
+</div>
+</div>
 </body>
 </html>
