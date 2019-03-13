@@ -2,40 +2,27 @@
 <html>
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136076420-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136076420-1');
+</script>
+
   <title>Yoon's Travel Journal</title>
   <meta charset="utf-8">
-  <style>
-  body{
-    margin:0;
-  }
-    h1{
-      text-align: center;
-      border-bottom: gray 1px solid;
-      padding:30px;
-      margin:0;
-    }
-    #content{
-      padding-left:25px;
-      padding-right:25px;
-    }
-    #grid{
-      display:grid;
-      grid-template-columns: 180px 1fr;
-    }
-    a {
-      color:black;
-      text-decoration: none;
-    }
-    #grid ol{
-      border-right:solid gray 1px;
-      padding-top:20px;
-      margin:0;
-    }
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <style>
+    a(title="My instagram"){
+      color:pink;
+    }
+  </style>
   <h1> <a href ="index.html">Yoon's Travel Journal </a></h1>
   <div id="grid">
 
@@ -51,7 +38,7 @@
     <img src="http://heatherllindsey.com/wp-content/uploads/2016/01/Unknown-5.jpeg" width="300px"><br>
 
       <p>Welcome to Yoon's Travel. This website contains the story of my past travels. Let's continue our journey until we visit <strong><u>all the countries</u> around the globe.</strong></p>
-      For more travel pictures, please visit my Instagram account  <a href="https://www.instagram.com/yoonyoonsso/" target="_blank" title="My instagram"> @yoonyoonsso </a>
+      For more travel pictures, please visit my Instagram account  <a href="https://www.instagram.com/yoonyoonsso/" target="_blank" title="My instagram" class="extralink"> @yoonyoonsso </a>
 
       <p>The countinents I visited so far are Asia, Europe, North America and South America. I have visited <strong>32 countries</strong> as of March 2019.</p>
       <p>The countries that I want to visit in near future are Egypt, Morocco, Antartica (although it is not a country), Nepal and Switzerland. I will keep you posted on cool countries to visit for your vacation.</p>
